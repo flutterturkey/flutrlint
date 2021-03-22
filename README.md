@@ -4,13 +4,9 @@ Flutter Türkiye projelerinde kullandığımız özel lint paketi.
 
 Bu paketi, bütün Flutter projelerinizde kullanabilirsiniz.
 
-[![style: flutrlint][badge]][badge_link]
-
 ---
 
-> **Note**: This package is heavily inspired by and has a dependency on [pedantic](https://github.com/dart-lang/pedantic).
-
-Lint Kuralları hakkında daha fazla bilgiye [bu bağlantı](https://dart-lang.github.io/linter/index.html) ile ulaşabilirsiniz.
+> **Not**: Lint Kuralları hakkında daha fazla bilgiye [bu bağlantıyla](https://dart-lang.github.io/linter/index.html) ulaşabilirsiniz.
 
 ## Kullanım
 Kuralları kullanmak için aşağıdaki komutu `pubspec.yaml` dosyası içerisinde bulunan `dev_dependencies`'in altına ekleyin.
@@ -31,7 +27,9 @@ include: package:flutrlint/analysis_options.yaml
 ## Bilgi
 Bu lint paketi içerisinde ekip içerisinde en sevdiğimiz link kurallarını ekledik.
 
-Dahil etmediğimiz lint kurallarını neden dahil etmediğimizi **yorum** olarak ilgili kuralın üzerine yazdık.
+Dahil etmediğimiz lint kurallarını neden dahil etmediğimizi ilgili kuralın üzerine **yorum** olarak yazdık.
+
+[![style: flutrlint][badge]][badge_link]
 
 [badge]: https://img.shields.io/badge/style-flutrlint-blue.svg
 [badge_link]: https://github.com/flutterturkey/flutrlint
