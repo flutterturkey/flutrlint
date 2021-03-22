@@ -60,6 +60,7 @@ linter:
     - camel_case_types
     - cancel_subscriptions
     - cascade_invocations
+    # Null Safety
     # - cast_nullable_to_non_nullable
     - close_sinks
     - comment_references
@@ -74,6 +75,7 @@ linter:
     - empty_statements
     - exhaustive_cases
     - file_names
+    # Bireylsel projelerde gerekli olmayacağı için çıkardık.
     # - flutter_style_todos
     - hash_and_equals
     - implementation_imports
@@ -95,6 +97,7 @@ linter:
     - no_logic_in_create_state
     - no_runtimeType_toString
     - non_constant_identifier_names
+    # Null Safety
     # - null_check_on_nullable_type_parameter
     - null_closures
     - omit_local_variable_types
@@ -107,6 +110,8 @@ linter:
     - parameter_assignments
     - prefer_adjacent_string_concatenation
     - prefer_asserts_in_initializer_lists
+    # Her bir assert'de mesaj girilmesine gerek olmayabilir.
+    # Basit assertlerde mesaj girilmesi şartını istemediğimiz için kaldırdık.
     # - prefer_asserts_with_message
     - prefer_collection_literals
     - prefer_conditional_assignment
@@ -137,7 +142,8 @@ linter:
     - prefer_is_not_empty
     - prefer_is_not_operator
     - prefer_iterable_whereType
-    # ChangeNotifier ve WidgetBindingObserver'da uyarı veriyor.
+    # ChangeNotifier ve WidgetBindingObserver' gibi sınıfları bağlarken
+    # gereksiz olarak kızıyor.
     # - prefer_mixin
     - prefer_null_aware_operators
     # Biz projelerde [always_use_package_imports] kuralını kullanıyoruz.
@@ -147,6 +153,7 @@ linter:
     - prefer_typing_uninitialized_variables
     - prefer_void_to_null
     - provide_deprecation_message
+    # Public olan her şeye dökümantasyon yazmak gerekiyor.
     # - public_member_api_docs
     - recursive_getters
     - sized_box_for_whitespace
@@ -170,8 +177,10 @@ linter:
     - unnecessary_lambdas
     - unnecessary_new
     - unnecessary_null_aware_assignments
+    # Null Safety
     # - unnecessary_null_checks
     - unnecessary_null_in_if_null_operators
+    # Null Safety
     # - unnecessary_nullable_for_final_variable_declarations
     - unnecessary_overrides
     - unnecessary_parenthesis
@@ -185,6 +194,7 @@ linter:
     - use_full_hex_values_for_flutter_colors
     - use_function_type_syntax_for_parameters
     - use_is_even_rather_than_modulo
+    # Null Safety
     - use_key_in_widget_constructors
     # - use_late_for_private_fields_and_variables
     - use_raw_strings
