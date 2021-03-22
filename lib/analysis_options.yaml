@@ -2,7 +2,7 @@ analyzer:
   exclude:
     - lib/**.g.dart
   errors:
-    missing_required_param: warning
+    missing_required_param: error
     missing_return: error
 
 linter:
