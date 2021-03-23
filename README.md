@@ -25,7 +25,7 @@ include: package:flutrlint/analysis_options.yaml
 ```
 
 ## Bilgi
-Bu lint paketi içerisinde ekip içerisinde en sevdiğimiz link kurallarını ekledik.
+Bu lint paketi içerisinde ekip içerisinde en sevdiğimiz lint kurallarını ekledik.
 
 Dahil etmediğimiz lint kurallarını neden dahil etmediğimizi ilgili kuralın üzerine **yorum** olarak yazdık.
 
