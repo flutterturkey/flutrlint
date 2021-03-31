@@ -9,13 +9,12 @@ Bu paketi, bütün Flutter projelerinizde kullanabilirsiniz.
 > **Not**: Lint Kuralları hakkında daha fazla bilgiye [bu bağlantıyla](https://dart-lang.github.io/linter/index.html) ulaşabilirsiniz.
 
 ## Kullanım
+
 Kuralları kullanmak için aşağıdaki komutu `pubspec.yaml` dosyası içerisinde bulunan `dev_dependencies`'in altına ekleyin.
 
 ```yaml
 dev_dependencies:
-  flutrlint:
-    git:
-      url: git://github.com/flutterturkey/flutrlint.git
+  flutrlint: ^2.0.0
 ```
 
 Projenizin ana dizinine `analysis_options.yaml` isimli bir dosya oluşturun ve içerisine aşağıdaki komutu ekleyin.
@@ -25,6 +24,7 @@ include: package:flutrlint/analysis_options.yaml
 ```
 
 ## Bilgi
+
 Bu lint paketi içerisinde ekip içerisinde en sevdiğimiz lint kurallarını ekledik.
 
 Dahil etmediğimiz lint kurallarını neden dahil etmediğimizi ilgili kuralın üzerine **yorum** olarak yazdık.
