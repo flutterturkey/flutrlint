@@ -1,6 +1,7 @@
 ## [2.0.0] - 31/03/2021
 
 - Migrate to null safety.
+- English support. 
 - Removed lint rule:
   - [`avoid_empty_else`]
 
