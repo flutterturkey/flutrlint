@@ -1,3 +1,6 @@
+## [2.0.0+1] - 08/04/2021
+- Fix for pub.dev
+
 ## [2.0.0] - 01/04/2021
 
 - Migrate to null safety.
