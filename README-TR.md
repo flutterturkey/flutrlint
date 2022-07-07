@@ -17,7 +17,7 @@ Kuralları kullanmak için aşağıdaki komutu `pubspec.yaml` dosyası içerisin
 
 ```yaml
 dev_dependencies:
-  flutrlint: ^2.0.0
+  flutrlint: ^3.0.0
 ```
 
 Projenizin ana dizinine `analysis_options.yaml` isimli bir dosya oluşturun ve içerisine aşağıdaki komutu ekleyin.
