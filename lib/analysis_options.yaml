@@ -159,6 +159,7 @@ linter:
     # - public_member_api_docs
     - recursive_getters
     - sized_box_for_whitespace
+    - sized_box_shrink_expand
     - slash_for_doc_comments
     - sort_child_properties_last
     - sort_constructors_first
@@ -174,9 +175,11 @@ linter:
     - unnecessary_await_in_return
     - unnecessary_brace_in_string_interps
     - unnecessary_const
+    - unnecessary_constructor_name
     # - unnecessary_final
     - unnecessary_getters_setters
     - unnecessary_lambdas
+    - unnecessary_late
     - unnecessary_new
     - unnecessary_null_aware_assignments
     # Null Safety
@@ -195,6 +198,9 @@ linter:
     - unsafe_html
     - use_full_hex_values_for_flutter_colors
     - use_function_type_syntax_for_parameters
+    - use_colored_box
+    - use_decorated_box
+    - use_enums
     - use_is_even_rather_than_modulo
     # Null Safety
     - use_key_in_widget_constructors
@@ -202,6 +208,7 @@ linter:
     - use_raw_strings
     - use_rethrow_when_possible
     - use_setters_to_change_properties
+    - use_super_parameters
     - use_string_buffers
     - use_to_and_as_if_applicable
     - valid_regexps

@@ -4,7 +4,7 @@ To use these rules add the package below the `dev_dependencies` in the `pubspec.
 
 ```yaml
 dev_dependencies:
-  flutrlint: ^2.0.0
+  flutrlint: ^3.0.0
 ```
 
 Create a file named `analysis_options.yaml` on the root directory of the project and add the command below.
